@@ -86,7 +86,7 @@ Time Complexity: $O(logn)$
 \subsubsection{Integer Dichotomy}
 \begin{cppcode}
 // Find one element in an ordered sequence.
-function < int(int) > check = [&](int mid) {};
+std::function < int(int) > check = [&](int mid) {};
 int l, r, ans = -1;
 while (l <= r)
 {
@@ -104,7 +104,7 @@ while (l <= r)
 \end{cppcode}
 \begin{cppcode}
 // Find the maximum element satisfying some conditions.
-function < bool(int) > check = [&](int mid) {};
+std::function < bool(int) > check = [&](int mid) {};
 int l, r, ans = l;
 while (l <= r)
 {
@@ -115,7 +115,7 @@ while (l <= r)
 \end{cppcode}
 \begin{cppcode}
 // Find the minimum element satisfying some conditions.
-function < bool(int) > check = [&](int mid) {};
+std::function < bool(int) > check = [&](int mid) {};
 int l, r, ans = l;
 while (l <= r)
 {
@@ -128,7 +128,7 @@ while (l <= r)
 \begin{cppcode}
 // Find the maximum value satisfying some conditions.
 const double eps = 1e-8;
-function < bool(double) > check = [&](double mid) {};
+std::function < bool(double) > check = [&](double mid) {};
 double l, r, ans = l;
 while (r - l > eps)
 {
@@ -140,7 +140,7 @@ while (r - l > eps)
 \begin{cppcode}
 // Find the minimum value satisfying some conditions.
 const double eps = 1e-8;
-function < bool(double) > check = [&](double mid) {};
+std::function < bool(double) > check = [&](double mid) {};
 double l, r, ans = l;
 while (r - l > eps)
 {
@@ -155,7 +155,7 @@ Time Complexity: $O(logn)$
 \begin{cppcode}
 // Find the maximum in an unimodal function.
 const double eps = 1e-8;
-function < double(double) > f = [&](double x) {};
+std::function < double(double) > f = [&](double x) {};
 double l, r;
 while (r - l > eps)
 {
@@ -169,7 +169,7 @@ while (r - l > eps)
 \begin{cppcode}
 // Find the minimum in an unimodal function.
 const double eps = 1e-8;
-function < double(double) > f = [&](double x) {};
+std::function < double(double) > f = [&](double x) {};
 double l, r;
 while (r - l > eps)
 {

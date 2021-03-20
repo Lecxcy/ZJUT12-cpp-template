@@ -1,7 +1,7 @@
 \begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
 \PYG{c+c1}{// Find the minimum in an unimodal function.}
 \PYG{k}{const} \PYG{k+kt}{double} \PYG{n}{eps} \PYG{o}{=} \PYG{l+m+mf}{1e\PYGZhy{}8}\PYG{p}{;}
-\PYG{n}{function} \PYG{o}{\PYGZlt{}} \PYG{k+kt}{double}\PYG{p}{(}\PYG{k+kt}{double}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{n}{f} \PYG{o}{=} \PYG{p}{[}\PYG{o}{\PYGZam{}}\PYG{p}{](}\PYG{k+kt}{double} \PYG{n}{x}\PYG{p}{)} \PYG{p}{\PYGZob{}\PYGZcb{};}
+\PYG{n}{std}\PYG{o}{::}\PYG{n}{function} \PYG{o}{\PYGZlt{}} \PYG{k+kt}{double}\PYG{p}{(}\PYG{k+kt}{double}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{n}{f} \PYG{o}{=} \PYG{p}{[}\PYG{o}{\PYGZam{}}\PYG{p}{](}\PYG{k+kt}{double} \PYG{n}{x}\PYG{p}{)} \PYG{p}{\PYGZob{}\PYGZcb{};}
 \PYG{k+kt}{double} \PYG{n}{l}\PYG{p}{,} \PYG{n}{r}\PYG{p}{;}
 \PYG{k}{while} \PYG{p}{(}\PYG{n}{r} \PYG{o}{\PYGZhy{}} \PYG{n}{l} \PYG{o}{\PYGZgt{}} \PYG{n}{eps}\PYG{p}{)}
 \PYG{p}{\PYGZob{}}

@@ -1,6 +1,6 @@
 \begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
 \PYG{c+c1}{// Find one element in an ordered sequence.}
-\PYG{n}{function} \PYG{o}{\PYGZlt{}} \PYG{k+kt}{int}\PYG{p}{(}\PYG{k+kt}{int}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{n}{check} \PYG{o}{=} \PYG{p}{[}\PYG{o}{\PYGZam{}}\PYG{p}{](}\PYG{k+kt}{int} \PYG{n}{mid}\PYG{p}{)} \PYG{p}{\PYGZob{}\PYGZcb{};}
+\PYG{n}{std}\PYG{o}{::}\PYG{n}{function} \PYG{o}{\PYGZlt{}} \PYG{k+kt}{int}\PYG{p}{(}\PYG{k+kt}{int}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{n}{check} \PYG{o}{=} \PYG{p}{[}\PYG{o}{\PYGZam{}}\PYG{p}{](}\PYG{k+kt}{int} \PYG{n}{mid}\PYG{p}{)} \PYG{p}{\PYGZob{}\PYGZcb{};}
 \PYG{k+kt}{int} \PYG{n}{l}\PYG{p}{,} \PYG{n}{r}\PYG{p}{,} \PYG{n}{ans} \PYG{o}{=} \PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{;}
 \PYG{k}{while} \PYG{p}{(}\PYG{n}{l} \PYG{o}{\PYGZlt{}=} \PYG{n}{r}\PYG{p}{)}
 \PYG{p}{\PYGZob{}}

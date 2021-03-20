@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.8.15)  20 MAR 2021 22:08
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.8.15)  20 MAR 2021 22:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -413,96 +413,85 @@ LaTeX Font Info:    ... okay on input line 12.
  [1] (./basic-algorithms.tex
 \openout3 = `cpp-template.pyg'.
 
-runsystem(pygmentize -S default -f latex -P commandprefix=PYG > _minted-cpp-template\default-pyg-prefix.pygstyle)...executed.
-
- (./_minted-cpp-template/default-pyg-prefix.pygstyle)
-runsystem(pygmentize -S default -f latex -P commandprefix=PYGdefault > _minted-cpp-template\default.pygstyle)...executed.
-
- (./_minted-cpp-template/default.pygstyle)
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/4C00BBA4DD805DE16CB65423806F2362035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
-
- (./_minted-cpp-template/4C00BBA4DD805DE16CB65423806F2362035E80F2264E84F3436F946F2FD7E18C.pygtex
+ (./_minted-cpp-template/default-pyg-prefix.pygstyle) (./_minted-cpp-template/default.pygstyle) (./_minted-cpp-template/4C00BBA4DD805DE16CB65423806F2362035E80F2264E84F3436F946F2FD7E18C.pygtex
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
 )
 \openout3 = `cpp-template.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/DF20267A8105EFB555C6A8D7C4F7DCD4035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
-
  (./_minted-cpp-template/DF20267A8105EFB555C6A8D7C4F7DCD4035E80F2264E84F3436F946F2FD7E18C.pygtex)
 \openout3 = `cpp-template.pyg'.
-
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/9E57F70C10B73572FE89CF11875F50F8035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
 
  (./_minted-cpp-template/9E57F70C10B73572FE89CF11875F50F8035E80F2264E84F3436F946F2FD7E18C.pygtex [2])
 \openout3 = `cpp-template.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/8B748BC85FB044513F6DFA04620034A1035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
-
  (./_minted-cpp-template/8B748BC85FB044513F6DFA04620034A1035E80F2264E84F3436F946F2FD7E18C.pygtex)
 \openout3 = `cpp-template.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/2E3B6AECCA70FDE5D6AD7B391D0EED01035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
-
- (./_minted-cpp-template/2E3B6AECCA70FDE5D6AD7B391D0EED01035E80F2264E84F3436F946F2FD7E18C.pygtex [3])
+ (./_minted-cpp-template/218CD3E98EBFC686987FFE258D9D7256035E80F2264E84F3436F946F2FD7E18C.pygtex [3])
 \openout3 = `cpp-template.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/2C0BBCA91C054E90FF03A2F6EE79D361035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/820DDF20DD7C5FC4A71C31EB12F3B14D035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
 
- (./_minted-cpp-template/2C0BBCA91C054E90FF03A2F6EE79D361035E80F2264E84F3436F946F2FD7E18C.pygtex)
+ (./_minted-cpp-template/820DDF20DD7C5FC4A71C31EB12F3B14D035E80F2264E84F3436F946F2FD7E18C.pygtex)
 \openout3 = `cpp-template.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/759E147D83DA35FA35347F203F58DA25035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/0DE0C5C4622867EC5A40CA040F623E04035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
 
- (./_minted-cpp-template/759E147D83DA35FA35347F203F58DA25035E80F2264E84F3436F946F2FD7E18C.pygtex)
+ (./_minted-cpp-template/0DE0C5C4622867EC5A40CA040F623E04035E80F2264E84F3436F946F2FD7E18C.pygtex)
 \openout3 = `cpp-template.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/C7F5868D7C7C0B4D93DD1A209DEAF7EC035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/F69504F90E483B059D9C50DF3243EAA8035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
 
- (./_minted-cpp-template/C7F5868D7C7C0B4D93DD1A209DEAF7EC035E80F2264E84F3436F946F2FD7E18C.pygtex)
+ (./_minted-cpp-template/F69504F90E483B059D9C50DF3243EAA8035E80F2264E84F3436F946F2FD7E18C.pygtex)
 \openout3 = `cpp-template.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/F96844A6685080DDCDBD0E19C4EE61F2035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/031EF69CCDCA677928742B224D208EB2035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
 
- (./_minted-cpp-template/F96844A6685080DDCDBD0E19C4EE61F2035E80F2264E84F3436F946F2FD7E18C.pygtex [4])
+ (./_minted-cpp-template/031EF69CCDCA677928742B224D208EB2035E80F2264E84F3436F946F2FD7E18C.pygtex [4])
 \openout3 = `cpp-template.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/C8B47B6429D33630BEC0FB8C660391AA035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/2FC77EAF322A2D6337C4E633AA8589ED035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
 
- (./_minted-cpp-template/C8B47B6429D33630BEC0FB8C660391AA035E80F2264E84F3436F946F2FD7E18C.pygtex)
+ (./_minted-cpp-template/2FC77EAF322A2D6337C4E633AA8589ED035E80F2264E84F3436F946F2FD7E18C.pygtex)
 \openout3 = `cpp-template.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/9C8484E66D7342C4D6ACFEC22893C0ED035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/092C19216EF6F4DFD456CAFD0785FE5C035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
 
- (./_minted-cpp-template/9C8484E66D7342C4D6ACFEC22893C0ED035E80F2264E84F3436F946F2FD7E18C.pygtex)
+ (./_minted-cpp-template/092C19216EF6F4DFD456CAFD0785FE5C035E80F2264E84F3436F946F2FD7E18C.pygtex)
 \openout3 = `cpp-template.pyg'.
-
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/DFE16DD1691FA5951B6FAB88680236FB035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
 
  (./_minted-cpp-template/DFE16DD1691FA5951B6FAB88680236FB035E80F2264E84F3436F946F2FD7E18C.pygtex [5])
 \openout3 = `cpp-template.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/06A1F2A68CF8FEC1FAC25A4083CA25B2035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
-
  (./_minted-cpp-template/06A1F2A68CF8FEC1FAC25A4083CA25B2035E80F2264E84F3436F946F2FD7E18C.pygtex [6])
 \openout3 = `cpp-template.pyg'.
-
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/D1B5AA99E5702224C42C6BB37E256885035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
 
  (./_minted-cpp-template/D1B5AA99E5702224C42C6BB37E256885035E80F2264E84F3436F946F2FD7E18C.pygtex)
 \openout3 = `cpp-template.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P mathescape=True -o _minted-cpp-template/DEAF4A889880965C77D5018358838E6D035E80F2264E84F3436F946F2FD7E18C.pygtex cpp-template.pyg)...executed.
+ (./_minted-cpp-template/DEAF4A889880965C77D5018358838E6D035E80F2264E84F3436F946F2FD7E18C.pygtex)) (./dynamic-programming.tex) (./data-structure.tex) (./graph-theory.tex) (./mathematics.tex) (./computational-geometry.tex) (./strings.tex) (./greedy.tex) (./stl.tex)
+runsystem(del _minted-cpp-template\2C0BBCA91C054E90FF03A2F6EE79D361035E80F2264E84F3436F946F2FD7E18C.pygtex)...executed.
 
- (./_minted-cpp-template/DEAF4A889880965C77D5018358838E6D035E80F2264E84F3436F946F2FD7E18C.pygtex)) (./dynamic-programming.tex) (./data-structure.tex) (./graph-theory.tex) (./mathematics.tex) (./computational-geometry.tex) (./strings.tex) (./greedy.tex) (./stl.tex) [7] [8] (./cpp-template.aux)
+runsystem(del _minted-cpp-template\759E147D83DA35FA35347F203F58DA25035E80F2264E84F3436F946F2FD7E18C.pygtex)...executed.
+
+runsystem(del _minted-cpp-template\C7F5868D7C7C0B4D93DD1A209DEAF7EC035E80F2264E84F3436F946F2FD7E18C.pygtex)...executed.
+
+runsystem(del _minted-cpp-template\F96844A6685080DDCDBD0E19C4EE61F2035E80F2264E84F3436F946F2FD7E18C.pygtex)...executed.
+
+runsystem(del _minted-cpp-template\C8B47B6429D33630BEC0FB8C660391AA035E80F2264E84F3436F946F2FD7E18C.pygtex)...executed.
+
+runsystem(del _minted-cpp-template\9C8484E66D7342C4D6ACFEC22893C0ED035E80F2264E84F3436F946F2FD7E18C.pygtex)...executed.
+
+ [7] [8] (./cpp-template.aux)
 runsystem(del cpp-template.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 5500 strings out of 479418
- 101864 string characters out of 5888105
+ 5512 strings out of 479418
+ 102800 string characters out of 5888105
  397702 words of memory out of 5000000
- 22850 multiletter control sequences out of 15000+600000
+ 22856 multiletter control sequences out of 15000+600000
  536314 words of font info for 52 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  41i,10n,43p,864b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
