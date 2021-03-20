@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{n}{std}\PYG{o}{::}\PYG{n}{vector} \PYG{o}{\PYGZlt{}} \PYG{k+kt}{int} \PYG{o}{\PYGZgt{}} \PYG{n}{add}\PYG{p}{(}\PYG{n}{std}\PYG{o}{::}\PYG{n}{vector} \PYG{o}{\PYGZlt{}} \PYG{k+kt}{int} \PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZam{}}\PYG{n}{A}\PYG{p}{,} \PYG{n}{std}\PYG{o}{::}\PYG{n}{vector} \PYG{o}{\PYGZlt{}} \PYG{k+kt}{int} \PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZam{}}\PYG{n}{B}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+    \PYG{n}{std}\PYG{o}{::}\PYG{n}{vector} \PYG{o}{\PYGZlt{}} \PYG{k+kt}{int} \PYG{o}{\PYGZgt{}} \PYG{n}{temp}\PYG{p}{;} \PYG{k+kt}{int} \PYG{n}{t} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+    \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{A}\PYG{p}{.}\PYG{n}{size}\PYG{p}{()} \PYG{o}{||} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{B}\PYG{p}{.}\PYG{n}{size}\PYG{p}{();} \PYG{o}{++}\PYG{n}{i}\PYG{p}{)}
+    \PYG{p}{\PYGZob{}}
+        \PYG{k}{if} \PYG{p}{(}\PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{A}\PYG{p}{.}\PYG{n}{size}\PYG{p}{())} \PYG{n}{t} \PYG{o}{+=} \PYG{n}{A}\PYG{p}{[}\PYG{n}{i}\PYG{p}{];}
+        \PYG{k}{if} \PYG{p}{(}\PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{B}\PYG{p}{.}\PYG{n}{size}\PYG{p}{())} \PYG{n}{t} \PYG{o}{+=} \PYG{n}{B}\PYG{p}{[}\PYG{n}{i}\PYG{p}{];}
+        \PYG{n}{temp}\PYG{p}{.}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{t} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{10}\PYG{p}{);}
+        \PYG{n}{t} \PYG{o}{/=} \PYG{l+m+mi}{10}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n}{t}\PYG{p}{)} \PYG{n}{temp}\PYG{p}{.}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{t}\PYG{p}{);}
+    \PYG{k}{return} \PYG{n}{temp}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

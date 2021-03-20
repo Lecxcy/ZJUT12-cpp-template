@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{c+c1}{// r means remainders.}
+\PYG{n}{std}\PYG{o}{::}\PYG{n}{vector} \PYG{o}{\PYGZlt{}} \PYG{k+kt}{int} \PYG{o}{\PYGZgt{}} \PYG{n}{div}\PYG{p}{(}\PYG{n}{std}\PYG{o}{::}\PYG{n}{vector} \PYG{o}{\PYGZlt{}} \PYG{k+kt}{int} \PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZam{}}\PYG{n}{A}\PYG{p}{,} \PYG{k+kt}{int} \PYG{n}{b}\PYG{p}{,} \PYG{k+kt}{int} \PYG{o}{\PYGZam{}}\PYG{n}{r}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+    \PYG{n}{std}\PYG{o}{::}\PYG{n}{vector} \PYG{o}{\PYGZlt{}} \PYG{k+kt}{int} \PYG{o}{\PYGZgt{}} \PYG{n}{temp}\PYG{p}{;}
+    \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{i} \PYG{o}{=} \PYG{n}{A}\PYG{p}{.}\PYG{n}{size}\PYG{p}{()} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZgt{}=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{o}{\PYGZhy{}\PYGZhy{}}\PYG{n}{i}\PYG{p}{)}
+    \PYG{p}{\PYGZob{}}
+        \PYG{n}{r} \PYG{o}{=} \PYG{n}{r} \PYG{o}{*} \PYG{l+m+mi}{10} \PYG{o}{+} \PYG{n}{A}\PYG{p}{[}\PYG{n}{i}\PYG{p}{];}
+        \PYG{n}{temp}\PYG{p}{.}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{r} \PYG{o}{/} \PYG{n}{b}\PYG{p}{);}
+        \PYG{n}{r} \PYG{o}{\PYGZpc{}=} \PYG{n}{b}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{n}{reverse}\PYG{p}{(}\PYG{n}{temp}\PYG{p}{.}\PYG{n}{begin}\PYG{p}{(),} \PYG{n}{temp}\PYG{p}{.}\PYG{n}{end}\PYG{p}{());}
+    \PYG{k}{while} \PYG{p}{(}\PYG{n}{temp}\PYG{p}{.}\PYG{n}{size}\PYG{p}{()} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{1} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{temp}\PYG{p}{.}\PYG{n}{back}\PYG{p}{()} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{)} \PYG{n}{temp}\PYG{p}{.}\PYG{n}{pop\PYGZus{}back}\PYG{p}{();}
+    \PYG{k}{return} \PYG{n}{temp}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

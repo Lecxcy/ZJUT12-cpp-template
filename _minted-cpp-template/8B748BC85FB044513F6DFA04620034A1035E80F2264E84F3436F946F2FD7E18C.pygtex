@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{c+c1}{// Return the number of inversion pairs in range $[l, r]$.}
+\PYG{k+kt}{int} \PYG{n}{temp}\PYG{p}{[];}
+\PYG{n}{ll} \PYG{n+nf}{invPair}\PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{a}\PYG{p}{[],} \PYG{k+kt}{int} \PYG{n}{l}\PYG{p}{,} \PYG{k+kt}{int} \PYG{n}{r}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n}{l} \PYG{o}{==} \PYG{n}{r}\PYG{p}{)} \PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+    \PYG{k+kt}{int} \PYG{n}{mid} \PYG{o}{=} \PYG{n}{l} \PYG{o}{+} \PYG{n}{r} \PYG{o}{\PYGZgt{}\PYGZgt{}} \PYG{l+m+mi}{1}\PYG{p}{;}
+    \PYG{n}{ll} \PYG{n}{ans} \PYG{o}{=} \PYG{n}{invPair}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,} \PYG{n}{l}\PYG{p}{,} \PYG{n}{mid}\PYG{p}{)} \PYG{o}{+} \PYG{n}{invPair}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,} \PYG{n}{mid} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{r}\PYG{p}{);}
+    \PYG{k+kt}{int} \PYG{n}{k} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{i} \PYG{o}{=} \PYG{n}{l}\PYG{p}{,} \PYG{n}{j} \PYG{o}{=} \PYG{n}{mid} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+    \PYG{k}{while} \PYG{p}{(}\PYG{n}{i} \PYG{o}{\PYGZlt{}=} \PYG{n}{mid} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{j} \PYG{o}{\PYGZlt{}=} \PYG{n}{r}\PYG{p}{)}
+    \PYG{p}{\PYGZob{}}
+        \PYG{k}{if} \PYG{p}{(}\PYG{n}{a}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{\PYGZlt{}=} \PYG{n}{a}\PYG{p}{[}\PYG{n}{j}\PYG{p}{])} \PYG{n}{temp}\PYG{p}{[}\PYG{o}{++}\PYG{n}{k}\PYG{p}{]} \PYG{o}{=} \PYG{n}{a}\PYG{p}{[}\PYG{n}{i}\PYG{o}{++}\PYG{p}{];}
+        \PYG{k}{else} \PYG{n}{temp}\PYG{p}{[}\PYG{o}{++}\PYG{n}{k}\PYG{p}{]} \PYG{o}{=} \PYG{n}{a}\PYG{p}{[}\PYG{n}{j}\PYG{o}{++}\PYG{p}{],} \PYG{n}{ans} \PYG{o}{+=} \PYG{n}{mid} \PYG{o}{\PYGZhy{}} \PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{k}{while} \PYG{p}{(}\PYG{n}{i} \PYG{o}{\PYGZlt{}=} \PYG{n}{mid}\PYG{p}{)} \PYG{n}{temp}\PYG{p}{[}\PYG{o}{++}\PYG{n}{k}\PYG{p}{]} \PYG{o}{=} \PYG{n}{a}\PYG{p}{[}\PYG{n}{i}\PYG{o}{++}\PYG{p}{];}
+    \PYG{k}{while} \PYG{p}{(}\PYG{n}{j} \PYG{o}{\PYGZlt{}=} \PYG{n}{r}\PYG{p}{)} \PYG{n}{temp}\PYG{p}{[}\PYG{o}{++}\PYG{n}{k}\PYG{p}{]} \PYG{o}{=} \PYG{n}{a}\PYG{p}{[}\PYG{n}{j}\PYG{o}{++}\PYG{p}{];}
+    \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{i} \PYG{o}{=} \PYG{n}{l}\PYG{p}{,} \PYG{n}{j} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}=} \PYG{n}{r}\PYG{p}{;} \PYG{o}{++}\PYG{n}{i}\PYG{p}{,} \PYG{o}{++}\PYG{n}{j}\PYG{p}{)} \PYG{n}{a}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{=} \PYG{n}{temp}\PYG{p}{[}\PYG{n}{j}\PYG{p}{];}
+    \PYG{k}{return} \PYG{n}{ans}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
